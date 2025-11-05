@@ -67,7 +67,7 @@ public class MapParserTest {
                 map.add("###########");
                 mapParser.parseMap(map);
             });
-        Assertions.assertEquals("Invalid character at 3,1: M" , thrown.getMessage());
+        Assertions.assertEquals("Invalid character at 3,1: M", thrown.getMessage());
     }
 
 
